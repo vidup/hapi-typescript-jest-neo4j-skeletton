@@ -1,2 +1,2 @@
 export default (thingToTest: any) =>
-  thingToTest !== undefined && thingToTest !== null;
+  thingToTest === undefined || thingToTest === null;

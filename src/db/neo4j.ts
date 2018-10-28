@@ -4,7 +4,7 @@ import ITransaction from '../../node_modules/neo4j-driver/types/v1/transaction';
 
 import { object } from 'joi';
 
-type TParameter = string | number | object;
+export type TParameter = string | number | object;
 
 export interface IParameters {
   [key: string]: string | number | object;
